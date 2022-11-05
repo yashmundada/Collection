@@ -19,15 +19,11 @@ public class ArrayCollection {
 	 
 	    	System.out.println("index position:" +i+" and index value: "+l.get(i));
 	    	
-    }
-	    	
-		Collections.reverse(l);
-		
+               }
+	    	Collections.reverse(l);
 		System.out.println(l);
-		
 		for(int i=0;i<l.size();i++) {
-			 
-	    	System.out.println("index position:" +i+" index value: "+l.get(i));
+	        System.out.println("index position:" +i+" index value: "+l.get(i));
 	    	}
 		
 }
